@@ -8,7 +8,7 @@ def check_users(current_users, new_users):
 
  for new_user in new_users:
      if new_user.lower() in current_users:
-         print("Username {} taken, please enter a new username.".format(new_user))
+         print("Username {} is taken, please enter a new username.".format(new_user))
      else:
         print("Username {} is available.".format(new_user))
 #end of my code
